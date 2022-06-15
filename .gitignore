@@ -1,0 +1,10 @@
+__pycache__
+*.jpg
+*.obj
+*.sh
+*.pth
+*.zip
+*clip*
+output/
+image/
+blender*
