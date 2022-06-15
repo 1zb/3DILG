@@ -10,10 +10,9 @@
 <sup>1</sup>KAUST, <sup>2</sup>Technical University of Munich
 
 
-<video src='https://1zb.github.io/3DILG/static/video/pipeline.mp4' width=720/> <br>
+https://1zb.github.io/3DILG/static/video/pipeline.mp4
 
-<video src='https://1zb.github.io/3DILG/static/video/uni_ar_wtitle.mp4' width=720/>
-
+https://1zb.github.io/3DILG/static/video/uni_ar_wtitle.mp4
 
 ## :computer: Progress
 - [x] Training of first stage
