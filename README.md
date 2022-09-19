@@ -17,12 +17,12 @@ https://1zb.github.io/3DILG/static/video/uni_ar_wtitle.mp4
 ## :computer: Progress
 - [x] Training of first stage
 - [x] Training of category-conditioned generation
-- [ ] Data preprocessing
+- [x] Data preprocessing
 - [ ] Pretrained models
 - [ ] Code cleaning
 
 ## :bullettrain_front: Training
-The training requires pre-processed ShapeNet objects which we have not released yet.
+Download the preprocessed data from [here](https://drive.google.com/drive/folders/1UFPi_UklH5clWKxxeL1IsxfjdUfc7i4x). Uncompress `occupancies.zip` and `surfaces.zip` to somewhere in your hard disk. They are required in the training phase.
 
 ### First stage (autoencoder):
 ```
