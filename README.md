@@ -17,12 +17,12 @@ https://1zb.github.io/3DILG/static/video/uni_ar_wtitle.mp4
 ## :computer: Progress
 - [x] Training of first stage
 - [x] Training of category-conditioned generation
-- [x] Data preprocessing
+- [x] Preprocessed data
 - [ ] Pretrained models
 - [ ] Code cleaning
 
 ## :bullettrain_front: Training
-Download the preprocessed data from [here](https://drive.google.com/drive/folders/1UFPi_UklH5clWKxxeL1IsxfjdUfc7i4x). Uncompress `occupancies.zip` and `surfaces.zip` to somewhere in your hard disk. They are required in the training phase.
+Download the preprocessed data from [here](https://drive.google.com/drive/folders/1UFPi_UklH5clWKxxeL1IsxfjdUfc7i4x). In case that this link is inaccessable, send [me](mailto:biao.zhang@kaust.edu.sa) an email for the data. Uncompress `occupancies.zip` and `surfaces.zip` to somewhere in your hard disk. They are required in the training phase.
 
 ### First stage (autoencoder):
 ```
