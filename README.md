@@ -18,6 +18,7 @@ https://1zb.github.io/3DILG/static/video/uni_ar_wtitle.mp4
 - [x] Training of first stage
 - [x] Training of category-conditioned generation
 - [x] Preprocessed data
+- [x] Evaluation code of first stage model
 - [ ] Pretrained models
 - [ ] Code cleaning
 
@@ -27,6 +28,9 @@ Download the preprocessed data from [here](https://drive.google.com/drive/folder
 ### First stage (autoencoder):
 ```
 torchrun --nproc_per_node=4 run_vqvae.py --output_dir output/vqvae_512_1024_2048 --model vqvae_512_1024_2048 --batch_size 32 --num_workers 60 --lr 1e-3 --disable_eval --point_cloud_size 2048
+```
+```
+python eval.py
 ```
 
 ### Second stage (category-conditioned generation):
