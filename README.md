@@ -56,9 +56,17 @@ The architecture of our method is inspired by [Taming-transformers](https://gith
 ## :blue_book: Citation
 
 ```bibtex
-@article{zhang20223dilg,
-  title={3DILG: Irregular Latent Grids for 3D Generative Modeling},
-  author={Zhang, Biao and Nie{\ss}ner, Matthias and Wonka, Peter},
-  journal={arXiv preprint arXiv:2205.13914},
-  year={2022}
+@inproceedings{
+zhang2022dilg,
+title={3{DILG}: Irregular Latent Grids for 3D Generative Modeling},
+author={Biao Zhang and Matthias Nie{\ss}ner and Peter Wonka},
+booktitle={Advances in Neural Information Processing Systems},
+editor={Alice H. Oh and Alekh Agarwal and Danielle Belgrave and Kyunghyun Cho},
+year={2022},
+url={https://openreview.net/forum?id=RO0wSr3R7y-}
 }
+```
+
+## :scroll: License
+
+This project is under the CC-BY-NC 4.0 license.
